@@ -9,7 +9,8 @@ import {
 } from "lucide-react";
 
 export const resumeData: ResumeData = {
-  name: "김철수 (Chul-soo Kim)",
+  name: "김철수",
+  nameEn: "Chul-soo Kim",
   title: "Full-Stack Developer",
   about: "복잡한 문제를 단순하고 우아한 코드로 해결하는 것을 즐기는 5년차 개발자입니다. 사용자 중심의 UI와 견고한 인프라 사이의 완벽한 균형을 찾기 위해 노력합니다.",
   experiences: [

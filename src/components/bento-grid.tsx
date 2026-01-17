@@ -34,9 +34,12 @@ export default function BentoGrid() {
         <BentoCard className="md:col-span-2 md:row-span-2 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-zinc-900 dark:to-zinc-800 border-blue-100 dark:border-zinc-700">
           <div className="flex flex-col justify-center h-full space-y-6">
             <div>
-              <h1 className="text-4xl md:text-6xl font-black tracking-tight text-zinc-900 dark:text-white mb-3">
+              <h1 className="text-4xl md:text-6xl font-black tracking-tight text-zinc-900 dark:text-white mb-2">
                 {resumeData.name}
               </h1>
+              <p className="text-2xl md:text-3xl font-medium text-zinc-500 dark:text-zinc-400 mb-3">
+                {resumeData.nameEn}
+              </p>
               <p className="text-xl md:text-2xl font-semibold text-zinc-600 dark:text-zinc-300">
                 {resumeData.title}
               </p>
