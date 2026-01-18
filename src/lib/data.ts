@@ -54,12 +54,12 @@ export const resumeData: ResumeData = {
     }
   ],
   skills: [
-    { name: "React / Next.js", level: "Advanced" },
-    { name: "TypeScript", level: "Advanced" },
-    { name: "Node.js", level: "Intermediate" },
-    { name: "PostgreSQL", level: "Intermediate" },
-    { name: "AWS", level: "Intermediate" },
-    { name: "Tailwind CSS", level: "Advanced" }
+    { name: "Spring", level: "Intermediate" },
+    { name: "Kotlin", level: "Intermediate" },
+    { name: "Kotlin Coroutine", level: "Advanced" },
+    // { name: "Python", level: "Intermediate" },
+    // { name: "AWS", level: "Intermediate" },
+    { name: "Kubernetes", level: "Intermediate" }
   ],
-  hobbies: ["사진 촬영", "LP 수집", "클라이밍", "요리"]
+  hobbies: ["등산", "도서관"]
 };
